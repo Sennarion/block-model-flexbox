@@ -69,7 +69,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header-nav {
@@ -121,6 +120,7 @@ img {
 
 .contacts-list {
   display: flex;
+  margin-left: auto;
 }
 
 .contact-link {
@@ -248,6 +248,7 @@ img {
 }
 
 .person-name {
+  font-size: 16px;
   font-weight: 500;
   color: var(--title-color);
   margin-bottom: 10px;
